@@ -1,7 +1,7 @@
 import { useEffect, useState } from "react";
 import TrendCard from "./TrendCard";
 
-const Temp = () => {
+const Trendlist = () => {
   const [trends, setTrends] = useState([]);
   const [loading, setLoading] = useState(false);
   const [error, setError] = useState(null);
@@ -100,4 +100,4 @@ const Temp = () => {
   );
 };
 
-export default Temp;
+export default Trendlist;
